@@ -13,7 +13,8 @@ In this tutorial, we will create a simple Todo List application using Express.js
 ## Part 1: Setting Up the Backend with Express and MongoDB
 
 ### Step 1: Setting Up the Project Structure
-![Project](./image2.png)
+<img src="./image2.png" alt="Description of image" width="300" height="200">
+
 
 Create a new directory for your project and navigate into it.
 
@@ -24,7 +25,7 @@ Install Express.js and Mongoose (MongoDB object modeling tool).
 ### Step 3: Setting Up Express Server
 
 Create a file named `index.js` and set up a basic Express server.
-![Express](./image3.png)
+<img src="./image3.png" alt="Description of image" width="300" height="200">
 
 ### Step 4: Connecting to MongoDB
 
