@@ -89,10 +89,6 @@ services:
     ports:
       - '80:80'
 
-  mongo:
-    image: mongo
-    ports:
-      - '27017:27017'
 ```
 ### Step 4: Running the Application with Docker Compose
 Run the following command in the project root directory to start the application:
