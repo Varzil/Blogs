@@ -13,6 +13,7 @@ In this tutorial, we will create a simple Todo List application using Express.js
 ## Part 1: Setting Up the Backend with Express and MongoDB
 
 ### Step 1: Setting Up the Project Structure
+![Project](./image2.png)
 
 Create a new directory for your project and navigate into it.
 
@@ -22,7 +23,8 @@ Install Express.js and Mongoose (MongoDB object modeling tool).
 
 ### Step 3: Setting Up Express Server
 
-Create a file named `server.js` and set up a basic Express server.
+Create a file named `index.js` and set up a basic Express server.
+![Express](./image3.png)
 
 ### Step 4: Connecting to MongoDB
 
@@ -30,17 +32,17 @@ Create a MongoDB Atlas account and obtain your MongoDB connection string.
 
 Create a `.env` file in the project root and add your MongoDB connection string.
 
-Update `server.js` to connect to MongoDB using Mongoose.
+Update `index.js` to connect to MongoDB using Mongoose.
 
 ### Step 5: Creating Todo Model
-
+![Schema](./image4.png)
 Create a folder named `models` and inside it, create a file `todo.js`.
 
 Define the Todo model schema with task and completed fields.
 
 ### Step 6: Testing the Backend
 
-![Testing the Backend]()
+![Testing the Backend](./image1.png)
 
 Add a route to handle GET requests for fetching todos.
 
