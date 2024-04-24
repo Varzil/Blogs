@@ -45,3 +45,5 @@ Define the Todo model schema with task and completed fields.
 Add a route to handle GET requests for fetching todos.
 
 Start your server and test the route using Postman or curl.
+
+Continue to [Part 2](https://varzil.github.io/Blogs/about2/).
